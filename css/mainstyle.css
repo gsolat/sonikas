@@ -1,0 +1,1435 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&display=swap');
+
+body {
+    margin-top: 0;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: #ff0000;
+}
+
+a {
+    color: #ff0000;
+    -webkit-transition: color 400ms, background-color 400ms;
+    -moz-transition: color 400ms, background-color 400ms;
+    -o-transition:  color 400ms, background-color 400ms;
+    transition:  color 400ms, background-color 400ms;
+}
+    a:hover,
+    a:focus {
+        color: #a51b0b;
+        text-decoration: none;
+    }
+}
+hr {
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #fff;
+}
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+.btn {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #f27466;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #f27466;
+    text-transform: uppercase;
+}
+.btn-xs {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    padding: 4px 8px;
+    border-width: 0;
+    border-radius: 3px;
+    background-color: #FF6D00;
+}
+.btn-primary {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    border-width: 0;
+    border-radius: 3px;
+    background: #f27466;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    background: #f27466;
+    color: #fff;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background: #ef5443;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #ef5443;
+    color: #fff;
+}
+
+.container-fluid {
+  /*background-color: #f5f7f6;*/
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: inherit;
+}
+
+/* --- navigator --- */
+
+.navbar-nav .nav-link a {
+    color: #fff;
+    font-weight: 400;
+}
+.navbar-nav .nav-link a:hover {
+    color: #ff0000;
+    font-weight: 400;
+}
+
+.navbar {
+    /* background-color: rgba(0, 0, 0, .9); */
+}
+
+.navbar-toggler i {
+    color:#ff0000;
+}
+
+.navbar-collapse {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+@media only screen {
+    .navbar-collapse {
+        margin-left: calc(1140px - 150px);
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:1200px) {
+    .navbar-collapse {
+        margin-left: calc(960px - 150px);
+        padding: 10px 20px;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .navbar-collapse {
+        margin-left: calc(720px - 150px);
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:575px) {
+    .navbar-collapse {
+        margin-left: calc(400px - 180px);
+        padding: 10px 20px;
+    }
+}
+
+/* CONTENT */
+
+@media (min-width: 1200px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        /* text-align: center; */
+        margin-top: 33vh;
+        position: absolute;
+        z-index: 10;
+    }
+    #logo-home h1{
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: 90vh;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    /* #global #text {
+        margin: 10vh 0 12vh 0;
+    } */
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 4em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+
+    /* #operacion, #team, #executive, #members {
+        height: auto;
+        padding: 5px 0;
+    } */
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 20vh 50px;
+    }
+    #operacion img {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .9em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    /* #team {
+      background-color: #fff;
+    }
+    #team img {
+      max-width: 250px;
+      color:#ff0000;
+    } */
+
+
+    /* #executive {
+      background: linear-gradient(#f5f7f6, #fff);
+    }
+    #executive h1 {
+      text-align: center;
+    }
+    #executive h3 {
+      color: #231f20;
+    }
+    #executive #members {
+      text-align: center;
+    }
+    #executive #members p {
+      margin: 0;
+    }
+    #executive #members img {
+      max-width: 300px;
+      border-radius: 100%;
+      padding: 40px;
+    } */
+
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #clientes img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #marcas img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #portafolio {
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 35px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .9em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 80px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+    }
+    #contacto .text {
+      padding-top: 45vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 15px;
+      max-width: 150px;
+    }
+    #contacto a {
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-size: 1.2em;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto a:hover {
+      color: #ff0000;
+      background-color: #fff;
+    }
+    /*#contacto p {
+      margin-top: 1rem;
+    }*/
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 33vh;
+        position: absolute;
+        z-index: 10;
+    }
+    #logo-home h1{
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: 90vh;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 4em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 20vh 50px;
+    }
+    #operacion img {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .9em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #clientes img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #marcas img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #portafolio {
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 35px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .9em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 80px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+    }
+    #contacto .text {
+      padding-top: 45vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contacto a {
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto p {
+      margin-top: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 33vh;
+        position: absolute;
+        z-index: 10;
+    }
+    #logo-home h1{
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: auto;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 4em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 20vh 50px;
+    }
+    #operacion img {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .8em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #clientes img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #marcas img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #portafolio {
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 35px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .8em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 80px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+    }
+    #contacto .text {
+      padding-top: 45vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contacto a {
+/*      font-size: 3em;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto p {
+      margin-top: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: auto;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 33vh;
+        position: absolute;
+        z-index: 10;
+    }
+    #logo-home h1{
+        font-size: 4rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: auto;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 4em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 20vh 50px;
+    }
+    #operacion img {
+      max-width: 150px;
+      margin-bottom: 30px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .8em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #clientes img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 130px 0 150px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+    #marcas img{
+      max-width: 200px;
+      margin: 20px 0px;
+    }
+
+
+    #portafolio {
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 35px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .8em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 80px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+    }
+    #contacto .text {
+      padding-top: 45vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 25px;
+      max-width: 150px;
+    }
+    #contacto a {
+      font-size: 1em;
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto p {
+      margin-top: 1rem;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 90vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 43vh;
+        position: absolute;
+        z-index: 10;
+        left: 0vh;
+    }
+    .carousel-inner {
+        position: relative;
+        width: auto;
+        overflow: hidden;
+    }
+    .carousel-item {
+        height: 100%;
+        width: auto;
+    }
+    .carousel-item .w-100 {
+        width: auto !important;
+    }
+    #logo-home h1{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: 90vh;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 2em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.5em;
+        line-height: 2;
+    }
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+        text-align: center;
+    }
+    #operacion #text {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 5vh 50px;
+    }
+    #operacion img {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .8em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 80px 0 100px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #clientes img{
+      max-width: 120px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 80px 0 100px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #marcas img{
+      max-width: 120px;
+      margin: 20px 0px;
+    }
+
+    #portafolio{
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .8em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 50px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+      text-align: center;
+    }
+    #contacto .text {
+      padding-top: 30vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 15px;
+      max-width: 50px;
+    }
+    #contacto a {
+/*      font-size: 1.3em;*/
+      color: #fff;
+      background-color: #ff0000;
+      padding: 3px 8px;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto p {
+      margin-top: 1rem;
+    }
+}
+
+@media (max-width: 374px) {
+    #home {
+        /* background-image: url('../img/bg-1.jpg'); */
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #000;
+        background-repeat: no-repeat;
+        color: #000;
+        height: 90vh;
+        margin-top: 0;
+        z-index: 10;
+        overflow: hidden;
+        font-family: 'Noto Serif', serif;
+    }
+    #logo-home {
+        margin-top: 43vh;
+        position: absolute;
+        z-index: 10;
+        left: 0vh;
+    }
+    .carousel-inner {
+        position: relative;
+        width: auto;
+        overflow: hidden;
+    }
+    .carousel-item {
+        height: 100%;
+        width: auto;
+    }
+    .carousel-item .w-100 {
+        width: auto !important;
+    }
+    #logo-home h1{
+        font-size: 2rem;
+        font-weight: 300;
+        line-height: 1;
+        color: #fff;
+    }
+    #logo-home h1:last-child {
+        text-align: right;
+    }
+    #home-page {
+        height: 90vh;
+        border-bottom: 25px solid #ff0000;
+    }
+    #home-page img {
+        filter: grayscale(100%);
+        opacity: .4;
+    }
+
+    #global {
+        z-index: 10;
+        text-align: center;
+        color: #231f20;
+        font-family: 'Lato', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #231f20;
+        font-size: 2em;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2;
+    }
+    #global #text p {
+        font-size: 1.2em;
+        line-height: 2;
+    }
+
+    #operacion {
+        background-image: url('../img/bg-3.jpg');
+        background-position: bottom center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: #404040;
+        text-align: center;
+    }
+    #operacion #text {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+    #operacion .text {
+        color: #fff;pad
+        letter-spacing: .5px;
+        padding: 5vh 50px;
+    }
+    #operacion img {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+    #operacion h4 {
+      font-style: italic;
+      color: #fff;
+      font-weight: 400;
+    }
+
+
+    .text p {
+        margin-top: 30px;
+        font-size: .8em;
+        line-height: 2;
+    }
+    .text h1, h3 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+    }
+
+    #clientes {
+      background-color: #fff;
+      text-align: center;
+      padding: 80px 0 100px 0;
+
+    }
+    #clientes h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #clientes img{
+      max-width: 120px;
+      margin: 20px 0px;
+    }
+
+
+    #marcas {
+      background-color: #fff;
+      text-align: center;
+      padding: 80px 0 100px 0;
+    }
+    #marcas h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    #marcas img{
+      max-width: 120px;
+      margin: 20px 0px;
+    }
+
+    #portafolio{
+      text-align: center;
+      padding-bottom: 10vh;
+      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #ff0000;
+    }
+    #portafolio #oferta {
+      text-align: center;
+    }
+    #portafolio #oferta .text {
+      text-align: left;
+      padding: 0 15px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-left: 1px solid #fff;
+    }
+    #portafolio #oferta p {
+      font-size: .8em;
+      color: #fff;
+    }
+    #portafolio h3 {
+      margin: 50px 0 30px 0;
+      color: #fff;
+      font-weight: 400;
+    }
+    #portafolio h4 {
+      color: #fff;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+    #portafolio img {
+      margin-top: -55px;
+      max-width: 100px;
+      background-color: #fff;
+      border-radius: 100%;
+      padding: 0px;
+    }
+
+
+    #contacto {
+      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
+      background-position: bottom center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: multiply;
+      background-color: #2c2c2c;
+      height: 100vh;
+      text-align: center;
+    }
+    #contacto .text {
+      padding-top: 40vh;
+      color: #fff;
+    }
+    #contacto .text img {
+      padding-top: 15px;
+      max-width: 50px;
+    }
+    #contacto a {
+/*      font-size: 1.1    em;*/
+      color: #fff;
+      padding: 3px 8px;
+      background-color: #ff0000;
+      font-family: 'Lato', sans-serif;
+    }
+    #contacto p {
+      margin-top: 1rem;
+    }
+}
