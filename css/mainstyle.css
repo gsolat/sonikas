@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans:400,400i,700,700i|Noto+Serif:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 body {
     margin-top: 0;
@@ -7,7 +8,7 @@ body {
     width: 100%;
     background-color: #fff;
     font-size: 16px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
 }
 
 html {
@@ -21,12 +22,12 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     color: #ff0000;
 }
 
 a {
-    color: #ff0000;
+    color: #ff6161;
     -webkit-transition: color 400ms, background-color 400ms;
     -moz-transition: color 400ms, background-color 400ms;
     -o-transition:  color 400ms, background-color 400ms;
@@ -51,7 +52,7 @@ hr {
     margin: 0 0 20px;
 }
 .btn {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #f27466;
@@ -62,7 +63,7 @@ hr {
     text-transform: uppercase;
 }
 .btn-xs {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
     color: #fff;
     padding: 4px 8px;
@@ -71,7 +72,7 @@ hr {
     background-color: #FF6D00;
 }
 .btn-primary {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #fff;
@@ -120,11 +121,11 @@ hr {
 }
 
 .navbar-toggler i {
-    color:#ff0000;
+    color:#ff6161;
 }
 
 .navbar-collapse {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(123, 201, 229, .8);
 }
 
 @media only screen {
@@ -193,8 +194,8 @@ hr {
         border-bottom: 25px solid #ff0000;
     }
     #home-page img {
-        filter: grayscale(100%);
-        opacity: .4;
+        filter: grayscale(0%);
+        opacity: 1  ;
     }
 
     #global {
