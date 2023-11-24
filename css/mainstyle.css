@@ -998,10 +998,10 @@ hr {
 
 @media (min-width: 375px) and (max-width: 575px) {
     #home {
-        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-image: url("../img/slider/ondas-bg-3A.svg"); 
         background-position:  center;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: contain;
         background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
@@ -1012,7 +1012,7 @@ hr {
         font-family: 'Noto Serif', serif;
     }
     #logo-home {
-        margin-top: 35vh;
+        margin-top: 40vh;
         position: absolute;
         z-index: 10;
     }
@@ -1210,7 +1210,7 @@ hr {
 
 @media (max-width: 374px) {
     #home {
-        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-image: url("../img/slider/ondas-bg-3A.svg"); 
         background-position:  center;
         background-attachment: fixed;
         background-size: cover;
