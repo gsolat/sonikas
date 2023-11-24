@@ -125,7 +125,7 @@ hr {
 }
 
 .navbar-collapse {
-    background-color: rgba(123, 201, 229, .8);
+    background-color: #faff70;
 }
 
 @media only screen {
@@ -161,22 +161,21 @@ hr {
 
 @media (min-width: 1200px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
-        background-size: cover;
-        background-color: #000;
+        background-size: contain;
+        background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: auto;
+        height: 100vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
-        font-family: 'Noto Serif', serif;
     }
     #logo-home {
         /* text-align: center; */
-        margin-top: 33vh;
+        margin-top: 38vh;
         position: absolute;
         z-index: 10;
     }
@@ -190,8 +189,8 @@ hr {
         text-align: right;
     }
     #home-page {
-        height: 90vh;
-        border-bottom: 25px solid #ff0000;
+        height: 70vh;
+/*        border-bottom: 12px solid #ff6161;*/
     }
     #home-page img {
         filter: grayscale(0%);
@@ -202,7 +201,8 @@ hr {
         z-index: 10;
         text-align: center;
         color: #231f20;
-        font-family: 'Lato', sans-serif;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
         padding: 10vh 0 12vh 0;
     }
     /* #global #text {
@@ -212,9 +212,8 @@ hr {
         margin-bottom: 10px;
     }
     #global h1 {
-        color: #231f20;
-        font-size: 4em;
-        font-style: italic;
+        color: #fff;
+        font-size: 3em;
         text-align: center;
         line-height: 1.2;
     }
@@ -229,12 +228,13 @@ hr {
     } */
 
     #operacion {
-        background-image: url('../img/bg-3.jpg');
-        background-position: bottom center;
+/*        background-image: url("../img/slider/ondas-bg.svg");*/
+        background-position: center;
         background-attachment: fixed;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-color: #404040;
+        background-size: contain;
+        background-repeat: no-repeat;
+/*        background-blend-mode: multiply;*/
+        background-color: #4af0bf;
     }
     #operacion .text {
         color: #fff;pad
@@ -405,12 +405,11 @@ hr {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
-        background-size: cover;
-        background-color: #000;
-        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffebe3;
         color: #000;
         height: auto;
         margin-top: 0;
@@ -420,7 +419,7 @@ hr {
     }
     #logo-home {
         margin-top: 33vh;
-        position: absolute;
+        position: relative;
         z-index: 10;
     }
     #logo-home h1{
@@ -434,7 +433,6 @@ hr {
     }
     #home-page {
         height: 90vh;
-        border-bottom: 25px solid #ff0000;
     }
     #home-page img {
         filter: grayscale(100%);
@@ -603,23 +601,31 @@ hr {
 
 @media (min-width: 768px) and (max-width: 991px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
-        background-size: cover;
-        background-color: #000;
+        background-size: contain;
+        background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
         height: auto;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
-        font-family: 'Noto Serif', serif;
+        font-family: 'Source Sans 3', serif;
     }
     #logo-home {
-        margin-top: 33vh;
-        position: absolute;
+        margin-top: 36vh;
+        position: relative;
         z-index: 10;
+    }
+    #logo-home img {
+        max-width: 70vw;
+        margin-left: 15vh;
+        text-align: center;
+    }
+    #home-page {
+        height: 90vh;
     }
     #logo-home h1{
         font-size: 4rem;
@@ -630,15 +636,6 @@ hr {
     #logo-home h1:last-child {
         text-align: right;
     }
-    #home-page {
-        height: auto;
-        border-bottom: 25px solid #ff0000;
-    }
-    #home-page img {
-        filter: grayscale(100%);
-        opacity: .4;
-    }
-
     #global {
         z-index: 10;
         text-align: center;
@@ -802,11 +799,11 @@ hr {
 
 @media (min-width: 576px) and (max-width: 767px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
         background-size: cover;
-        background-color: #000;
+        background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
         height: auto;
@@ -816,9 +813,13 @@ hr {
         font-family: 'Noto Serif', serif;
     }
     #logo-home {
-        margin-top: 33vh;
-        position: absolute;
+        margin-top: 40vh;
+        position: relative;
         z-index: 10;
+    }
+    #logo-home img {
+        max-width: 90vw;
+        text-align: center;
     }
     #logo-home h1{
         font-size: 4rem;
@@ -830,12 +831,8 @@ hr {
         text-align: right;
     }
     #home-page {
-        height: auto;
+        height: 100vh;
         border-bottom: 25px solid #ff0000;
-    }
-    #home-page img {
-        filter: grayscale(100%);
-        opacity: .4;
     }
 
     #global {
@@ -1001,24 +998,27 @@ hr {
 
 @media (min-width: 375px) and (max-width: 575px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
         background-size: cover;
-        background-color: #000;
+        background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
-        height: 90vh;
+        height: 100vh;
         margin-top: 0;
         z-index: 10;
         overflow: hidden;
         font-family: 'Noto Serif', serif;
     }
     #logo-home {
-        margin-top: 43vh;
+        margin-top: 35vh;
         position: absolute;
         z-index: 10;
-        left: 0vh;
+    }
+    #logo-home img {
+        max-width: 90vw;
+        text-align: center;
     }
     .carousel-inner {
         position: relative;
@@ -1041,15 +1041,6 @@ hr {
     #logo-home h1:last-child {
         text-align: right;
     }
-    #home-page {
-        height: 90vh;
-        border-bottom: 25px solid #ff0000;
-    }
-    #home-page img {
-        filter: grayscale(100%);
-        opacity: .4;
-    }
-
     #global {
         z-index: 10;
         text-align: center;
@@ -1219,11 +1210,11 @@ hr {
 
 @media (max-width: 374px) {
     #home {
-        /* background-image: url('../img/bg-1.jpg'); */
-        background-position: bottom center;
+        background-image: url("../img/slider/ondas-bg-3.svg"); 
+        background-position:  center;
         background-attachment: fixed;
         background-size: cover;
-        background-color: #000;
+        background-color: #ffebe3;
         background-repeat: no-repeat;
         color: #000;
         height: 90vh;
@@ -1237,6 +1228,10 @@ hr {
         position: absolute;
         z-index: 10;
         left: 0vh;
+    }
+    #logo-home img {
+        max-width: 90vw;
+        text-align: center;
     }
     .carousel-inner {
         position: relative;
