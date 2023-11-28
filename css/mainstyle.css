@@ -35,7 +35,7 @@ a {
 }
     a:hover,
     a:focus {
-        color: #a51b0b;
+        color: #ffbd38;
         text-decoration: none;
     }
 }
@@ -130,7 +130,7 @@ hr {
 
 @media only screen {
     .navbar-collapse {
-        margin-left: calc(1140px - 150px);
+        margin-left: calc(1120px - 150px);
         padding: 10px 20px;
     }
 }
@@ -160,6 +160,10 @@ hr {
 /* CONTENT */
 
 @media (min-width: 1200px) {
+
+
+    /* PRESENTACION */
+
     #home {
         background-image: url("../img/slider/ondas-bg-3.svg"); 
         background-position:  center;
@@ -174,89 +178,79 @@ hr {
         overflow: hidden;
     }
     #logo-home {
-        /* text-align: center; */
+        max-width: ;
         margin-top: 38vh;
         position: absolute;
         z-index: 10;
     }
-    #logo-home h1{
-        font-size: 5rem;
-        font-weight: 300;
-        line-height: 1;
-        color: #fff;
+     #logo-home img {
+        max-width: 50vw;
     }
-    #logo-home h1:last-child {
-        text-align: right;
-    }
-    #home-page img {
-        filter: grayscale(0%);
-        opacity: 1  ;
-    }
+
+    /* DEFINICION */
 
     #global {
         z-index: 10;
-        text-align: center;
         color: #231f20;
         background-color: #c29cff;
         font-family: 'Source Sans 3', sans-serif;
         padding: 10vh 0 12vh 0;
     }
-    /* #global #text {
-        margin: 10vh 0 12vh 0;
-    } */
     #global p {
         margin-bottom: 10px;
     }
     #global h1 {
-        color: #fff;
+        color: #ffebe3;
         font-size: 3em;
-        text-align: center;
         line-height: 1.2;
+        margin-bottom: 30px;
     }
     #global #text p {
-        font-size: 1.5em;
-        line-height: 2;
+        font-size: 1.3em;
+        color: #000;
     }
 
-    /* #operacion, #team, #executive, #members {
-        height: auto;
-        padding: 5px 0;
-    } */
+    /* ORIGEN */
 
-    #operacion {
-/*        background-image: url("../img/slider/ondas-bg.svg");*/
-        background-position: center;
-        background-attachment: fixed;
-        background-size: contain;
-        background-repeat: no-repeat;
-/*        background-blend-mode: multiply;*/
+    #origen {
+        z-index: 10;
+        color: #231f20;
         background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
     }
-    #operacion .text {
-        color: #fff;pad
-        letter-spacing: .5px;
-        padding: 20vh 50px;
+    #origen #text p {
+        color: #000;
+        font-size: 1.3em;
     }
-    #operacion img {
-      max-width: 150px;
-      margin-bottom: 30px;
-    }
-    #operacion h4 {
-      font-style: italic;
-      color: #fff;
-      font-weight: 400;
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
     }
 
+    /* SONIKAS */
 
-    .text p {
-        margin-top: 30px;
-        font-size: .9em;
-        line-height: 2;
+    #sonikas {
+        z-index: 10;
+        color: #231f20;
+        background-color: #ffebe3;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #sonikas .text {
+        padding: 10px 40px;
+    }
+    #sonikas .text p {
+        font-size: 1em;
+        line-height: 1.2;
     }
     .text h1, h3 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
     }
+
 
     /* #team {
       background-color: #fff;
