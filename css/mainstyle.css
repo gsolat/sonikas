@@ -234,13 +234,29 @@ hr {
 
     #sonikas {
         z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2.svg"); 
         color: #231f20;
         background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 10vh 0 12vh 0;
+        padding: 0 0 12vh 0;
     }
     #sonikas .text {
         padding: 10px 40px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 20px;
     }
     #sonikas .text p {
         font-size: 1em;
