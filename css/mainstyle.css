@@ -206,7 +206,7 @@ hr {
         margin-bottom: 30px;
     }
     #global #text p {
-        font-size: 1.3em;
+        font-size: 1.1em;
         color: #000;
     }
 
@@ -221,7 +221,7 @@ hr {
     }
     #origen #text p {
         color: #000;
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     #origen h1 {
         color: #9a59ff;
@@ -256,26 +256,40 @@ hr {
     }
     #sonikas #icon {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     #sonikas .text p {
-        font-size: 1em;
-        line-height: 1.2;
+        font-size: .9em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
     }
     .text h1, h3 {
         font-family: 'Source Sans 3', sans-serif;
         color: #9a59ff;
     }
 
+    /* GALERIA */
 
-    /* #team {
-      background-color: #fff;
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
     }
-    #team img {
-      max-width: 250px;
-      color:#ff0000;
-    } */
-
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
 
     /* #executive {
       background: linear-gradient(#f5f7f6, #fff);
@@ -1241,7 +1255,7 @@ hr {
         width: auto;
     }
     .carousel-item .w-100 {
-        width: auto !important;
+        
     }
     #logo-home h1{
         font-size: 2rem;
@@ -1252,7 +1266,117 @@ hr {
     #logo-home h1:last-child {
         text-align: right;
     }
+
+    /* DEFINICION */
+
     #global {
+        z-index: 10;
+        color: #231f20;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #global p {
+        margin-bottom: 10px;
+    }
+    #global h1 {
+        color: #ffebe3;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+    #global #text p {
+        font-size: 0.8em;
+        color: #000;
+    }
+
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 0.8em;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    #sonikas .text {
+        padding: 10px 40px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #sonikas .text p {
+        font-size: .8em;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
+    }
+    .text h1, h3 {
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
+    }
+
+    /* GALERIA */
+
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    #imagenes .carousel-inner {
+        border-radius: 10px;
+    }
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
+    }
+    #imagenes #gallery {
+        
+    }
+
+
+
+/*    #global {
         z-index: 10;
         text-align: center;
         color: #231f20;
@@ -1386,7 +1510,7 @@ hr {
       border-radius: 100%;
       padding: 0px;
     }
-
+*/
 
     #contacto {
       background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
