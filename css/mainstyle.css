@@ -242,7 +242,7 @@ hr {
         background-size: contain;
         background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 0 0 12vh 0;
+        padding: 0;
     }
     #sonikas .text {
         padding: 10px 40px;
@@ -282,7 +282,7 @@ hr {
         background-size: contain;
         background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 0 0 12vh 0;
+        padding: 10vh 0 12vh 0;
     }
     #imagenes .carousel-inner {
         border-radius: 10px;
@@ -891,7 +891,7 @@ hr {
         background-size: contain;
         background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 0 0 5vh 0;
+        padding: 0;
     }
     #sonikas .text {
         padding: 10px;
@@ -1064,7 +1064,7 @@ hr {
         background-size: contain;
         background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 0 0 12vh 0;
+        margin: 0 0 12 0;
     }
     #sonikas .text {
         padding: 10px 40px;
@@ -1104,7 +1104,7 @@ hr {
         background-size: contain;
         background-repeat: no-repeat;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 10vh 0 12vh 0;
+        margin: 10vh 0 12vh 0;
     }
     #imagenes .carousel-inner {
         border-radius: 10px;
@@ -1114,144 +1114,6 @@ hr {
     }
     #imagenes #gallery {
     }
-
-
-
-/*    #global {
-        z-index: 10;
-        text-align: center;
-        color: #231f20;
-        font-family: 'Lato', sans-serif;
-        padding: 10vh 0 12vh 0;
-    }
-    #global p {
-        margin-bottom: 10px;
-    }
-    #global h1 {
-        color: #231f20;
-        font-size: 2em;
-        font-style: italic;
-        text-align: center;
-        line-height: 1.2;
-    }
-    #global #text p {
-        font-size: 1.2em;
-        line-height: 2;
-    }
-
-    #operacion {
-        background-image: url('../img/bg-3.jpg');
-        background-position: bottom center;
-        background-attachment: fixed;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-color: #404040;
-        text-align: center;
-    }
-    #operacion #text {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    #operacion .text {
-        color: #fff;pad
-        letter-spacing: .5px;
-        padding: 5vh 50px;
-    }
-    #operacion img {
-      max-width: 100px;
-      margin-bottom: 20px;
-    }
-    #operacion h4 {
-      font-style: italic;
-      color: #fff;
-      font-weight: 400;
-    }
-
-
-    .text p {
-        margin-top: 30px;
-        font-size: .8em;
-        line-height: 2;
-    }
-    .text h1, h3 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
-    }
-
-    #clientes {
-      background-color: #fff;
-      text-align: center;
-      padding: 80px 0 100px 0;
-
-    }
-    #clientes h3 {
-      text-align: center;
-      margin-bottom: 15px;
-    }
-    #clientes img{
-      max-width: 120px;
-      margin: 20px 0px;
-    }
-
-
-    #marcas {
-      background-color: #fff;
-      text-align: center;
-      padding: 80px 0 100px 0;
-    }
-    #marcas h3 {
-      text-align: center;
-      margin-bottom: 15px;
-    }
-    #marcas img{
-      max-width: 120px;
-      margin: 20px 0px;
-    }
-
-    #portafolio{
-      text-align: center;
-      padding-bottom: 10vh;
-      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #ff0000;
-    }
-    #portafolio #oferta {
-      text-align: center;
-    }
-    #portafolio #oferta .text {
-      text-align: left;
-      padding: 0 15px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      border-left: 1px solid #fff;
-    }
-    #portafolio #oferta p {
-      font-size: .8em;
-      color: #fff;
-    }
-    #portafolio h3 {
-      margin: 50px 0 30px 0;
-      color: #fff;
-      font-weight: 400;
-    }
-    #portafolio h4 {
-      color: #fff;
-      font-weight: 400;
-      font-style: italic;
-      font-size: 1.1em;
-    }
-    #portafolio img {
-      margin-top: -55px;
-      max-width: 100px;
-      background-color: #fff;
-      border-radius: 100%;
-      padding: 0px;
-    }
-*/
 
     #contacto {
       background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
