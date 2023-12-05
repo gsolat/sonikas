@@ -1245,18 +1245,6 @@ hr {
         max-width: 90vw;
         text-align: center;
     }
-    .carousel-inner {
-        position: relative;
-        width: auto;
-        overflow: hidden;
-    }
-    .carousel-item {
-        height: 100%;
-        width: auto;
-    }
-    .carousel-item .w-100 {
-        
-    }
     #logo-home h1{
         font-size: 2rem;
         font-weight: 300;
@@ -1314,7 +1302,7 @@ hr {
 
     #sonikas {
         z-index: 10;
-        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
         color: #231f20;
         background-color: #ffebe3;
         background-position:  center;
@@ -1354,7 +1342,7 @@ hr {
 
     #imagenes {
         z-index: 10;
-        background-image: url("../img/slider/ondas-bg-2.svg"); 
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
         color: #231f20;
         background-color: #ffebe3;
         background-position:  center;
@@ -1371,7 +1359,6 @@ hr {
         text-shadow: 2px 2px #000000;;
     }
     #imagenes #gallery {
-        
     }
 
 
