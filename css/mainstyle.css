@@ -1009,7 +1009,7 @@ hr {
 }
 
 @media (min-width: 375px) and (max-width: 575px) {
-    #home {
+        #home {
         background-image: url("../img/slider/ondas-bg-3A.svg"); 
         background-position:  center;
         background-attachment: fixed;
@@ -1024,25 +1024,14 @@ hr {
         font-family: 'Noto Serif', serif;
     }
     #logo-home {
-        margin-top: 40vh;
+        margin-top: 43vh;
         position: absolute;
         z-index: 10;
+        left: 0vh;
     }
     #logo-home img {
         max-width: 90vw;
         text-align: center;
-    }
-    .carousel-inner {
-        position: relative;
-        width: auto;
-        overflow: hidden;
-    }
-    .carousel-item {
-        height: 100%;
-        width: auto;
-    }
-    .carousel-item .w-100 {
-        width: auto !important;
     }
     #logo-home h1{
         font-size: 2rem;
@@ -1053,139 +1042,111 @@ hr {
     #logo-home h1:last-child {
         text-align: right;
     }
+
+    /* DEFINICION */
+
     #global {
         z-index: 10;
-        text-align: center;
         color: #231f20;
-        font-family: 'Lato', sans-serif;
+        background-color: #c29cff;
+        font-family: 'Source Sans 3', sans-serif;
         padding: 10vh 0 12vh 0;
     }
     #global p {
         margin-bottom: 10px;
     }
     #global h1 {
-        color: #231f20;
-        font-size: 2em;
-        font-style: italic;
-        text-align: center;
+        color: #ffebe3;
+        font-size: 3em;
         line-height: 1.2;
+        margin-bottom: 30px;
     }
     #global #text p {
-        font-size: 1.5em;
-        line-height: 2;
+        font-size: 0.8em;
+        color: #000;
     }
 
-    #operacion {
-        background-image: url('../img/bg-3.jpg');
-        background-position: bottom center;
+    /* ORIGEN */
+
+    #origen {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
+    #origen #text p {
+        color: #000;
+        font-size: 0.8em;
+    }
+    #origen h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1.2;
+        margin-bottom: 30px;
+    }
+
+    /* SONIKAS */
+
+    #sonikas {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
         background-attachment: fixed;
-        background-size: cover;
-        background-blend-mode: multiply;
-        background-color: #404040;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
+    }
+    #sonikas .text {
+        padding: 10px 40px;
+    }
+    #sonikas #icon img {
+        margin-top: -55px;
+        max-width: 100px;
+        background-color: #fff;
+        border-radius: 100%;
+        padding: 0px;
+    }
+    #sonikas #icon {
         text-align: center;
+        margin-bottom: 50px;
     }
-    #operacion #text {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
-    #operacion .text {
-        color: #fff;pad
-        letter-spacing: .5px;
-        padding: 5vh 50px;
-    }
-    #operacion img {
-      max-width: 100px;
-      margin-bottom: 20px;
-    }
-    #operacion h4 {
-      font-style: italic;
-      color: #fff;
-      font-weight: 400;
-    }
-
-
-    .text p {
-        margin-top: 30px;
+    #sonikas .text p {
         font-size: .8em;
-        line-height: 2;
+        line-height: 1.35;
+    }
+    #sonikas .text img {
+        display: none;
     }
     .text h1, h3 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
+        font-family: 'Source Sans 3', sans-serif;
+        color: #9a59ff;
     }
 
-    #clientes {
-      background-color: #fff;
-      text-align: center;
-      padding: 80px 0 100px 0;
+    /* GALERIA */
 
+    #imagenes {
+        z-index: 10;
+        background-image: url("../img/slider/ondas-bg-2A.svg"); 
+        color: #231f20;
+        background-color: #ffebe3;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 0 0 12vh 0;
     }
-    #clientes h3 {
-      text-align: center;
-      margin-bottom: 15px;
+    #imagenes .carousel-inner {
+        border-radius: 10px;
     }
-    #clientes img{
-      max-width: 120px;
-      margin: 20px 0px;
+    #imagenes .carousel-inner p {
+        text-shadow: 2px 2px #000000;;
     }
-
-
-    #marcas {
-      background-color: #fff;
-      text-align: center;
-      padding: 80px 0 100px 0;
-    }
-    #marcas h3 {
-      text-align: center;
-      margin-bottom: 15px;
-    }
-    #marcas img{
-      max-width: 120px;
-      margin: 20px 0px;
-    }
-
-    #portafolio{
-      text-align: center;
-      padding-bottom: 10vh;
-      background-image: url('../img/slider/bernd-dittrich-eCc7FjMoR74-unsplash copy.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #ff0000;
-    }
-    #portafolio #oferta {
-      text-align: center;
-    }
-    #portafolio #oferta .text {
-      text-align: left;
-      padding: 0 15px;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      border-left: 1px solid #fff;
-    }
-    #portafolio #oferta p {
-      font-size: .8em;
-      color: #fff;
-    }
-    #portafolio h3 {
-      margin: 50px 0 30px 0;
-      color: #fff;
-      font-weight: 400;
-    }
-    #portafolio h4 {
-      color: #fff;
-      font-weight: 400;
-      font-style: italic;
-      font-size: 1.1em;
-    }
-    #portafolio img {
-      margin-top: -55px;
-      max-width: 100px;
-      background-color: #fff;
-      border-radius: 100%;
-      padding: 0px;
+    #imagenes #gallery {
     }
 
 
