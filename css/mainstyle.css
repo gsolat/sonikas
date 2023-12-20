@@ -954,36 +954,29 @@ hr {
     #imagenes #gallery {
     }
 
+    /*  PODCAST  */
 
-    #contacto {
-      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #2c2c2c;
-      height: 100vh;
-      text-align: center;
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 0 0;
     }
-    #contacto .text {
-      padding-top: 30vh;
-      color: #fff;
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
     }
-    #contacto .text img {
-      padding-top: 15px;
-      max-width: 50px;
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
-    #contacto a {
-/*      font-size: 1.3em;*/
-      color: #fff;
-      background-color: #ff0000;
-      padding: 3px 8px;
-      font-family: 'Lato', sans-serif;
-    }
-    #contacto p {
-      margin-top: 1rem;
-    }
+
 }
 
 @media (max-width: 374px) {
