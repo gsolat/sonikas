@@ -291,6 +291,19 @@ hr {
         text-shadow: 2px 2px #000000;;
     }
 
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #faff70;
+        background-position:  center;
+        background-attachment: fixed;
+        background-size: contain;
+        background-repeat: no-repeat;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 12vh 0;
+    }
 
     #contacto {
       background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
@@ -322,7 +335,6 @@ hr {
       background-color: #fff;
     }
 }
-
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
