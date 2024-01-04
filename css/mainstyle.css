@@ -296,44 +296,25 @@ hr {
     #podcast {
         z-index: 10;
         color: #231f20;
-        background-color: #faff70;
-        background-position:  center;
-        background-attachment: fixed;
-        background-size: contain;
-        background-repeat: no-repeat;
+        background-color: #4af0bf;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 10vh 0 12vh 0;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
 
-    #contacto {
-      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #2c2c2c;
-      height: 100vh;
-    }
-    #contacto .text {
-      padding-top: 45vh;
-      color: #fff;
-    }
-    #contacto .text img {
-      padding-top: 15px;
-      max-width: 150px;
-    }
-    #contacto a {
-      color: #fff;
-      background-color: #ff0000;
-      padding: 3px 8px;
-      font-size: 1.2em;
-      font-family: 'Lato', sans-serif;
-    }
-    #contacto a:hover {
-      color: #ff0000;
-      background-color: #fff;
-    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -470,33 +451,27 @@ hr {
     #imagenes #gallery {
     }
 
+    /*  PODCAST */
 
-    #contacto {
-      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #2c2c2c;
-      height: 100vh;
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        padding: 10vh 0 ;
     }
-    #contacto .text {
-      padding-top: 45vh;
-      color: #fff;
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
     }
-    #contacto .text img {
-      padding-top: 25px;
-      max-width: 150px;
-    }
-    #contacto a {
-      color: #fff;
-      background-color: #ff0000;
-      padding: 3px 8px;
-      font-family: 'Lato', sans-serif;
-    }
-    #contacto p {
-      margin-top: 1rem;
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
 }
 
@@ -635,6 +610,30 @@ hr {
         text-shadow: 2px 2px #000000;;
     }
     #imagenes #gallery {
+    }
+
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
+    }
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
 }
 
@@ -782,34 +781,28 @@ hr {
     }
 
 
-    #contacto {
-      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #2c2c2c;
-      height: 100vh;
-      text-align: center;
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
     }
-    #contacto .text {
-      padding-top: 30vh;
-      color: #fff;
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
     }
-    #contacto .text img {
-      padding-top: 15px;
-      max-width: 50px;
-    }
-    #contacto a {
-/*      font-size: 1.3em;*/
-      color: #fff;
-      background-color: #ff0000;
-      padding: 3px 8px;
-      font-family: 'Lato', sans-serif;
-    }
-    #contacto p {
-      margin-top: 1rem;
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
 }
 
@@ -961,7 +954,8 @@ hr {
         color: #231f20;
         background-color: #4af0bf;
         font-family: 'Source Sans 3', sans-serif;
-        padding: 10vh 0 0 0;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
     }
     #podcast h1 {
         color: #9a59ff;
@@ -1120,33 +1114,28 @@ hr {
     #imagenes #gallery {
     }
 
-    #contacto {
-      background-image: url('../img/slider/victor-garcia-UoIiVYka3VY-unsplash.jpg');
-      background-position: bottom center;
-      background-attachment: fixed;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-blend-mode: multiply;
-      background-color: #2c2c2c;
-      height: 100vh;
-      text-align: center;
+    /*  PODCAST  */
+
+    #podcast {
+        z-index: 10;
+        color: #231f20;
+        background-color: #4af0bf;
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        padding: 15vh 0 5vh 0;
     }
-    #contacto .text {
-      padding-top: 40vh;
-      color: #fff;
+    #podcast h1 {
+        color: #9a59ff;
+        font-size: 3em;
+        line-height: 1;
+        margin-bottom: 30px;
     }
-    #contacto .text img {
-      padding-top: 15px;
-      max-width: 50px;
+    #podcast #info {
+        text-align: center;
+        margin: 30px 0;
+        font-size: 0.9em;
+        line-height: 1.2;
+        color: #9a59ff;
     }
-    #contacto a {
-/*      font-size: 1.1    em;*/
-      color: #fff;
-      padding: 3px 8px;
-      background-color: #ff0000;
-      font-family: 'Lato', sans-serif;
-    }
-    #contacto p {
-      margin-top: 1rem;
-    }
+
 }
